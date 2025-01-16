@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# BmiCICD
 This is a test for a pipeline CI/CD with GitHub Action
 =======
 # Body Mass Index Calculator
@@ -66,13 +64,10 @@ Run the Docker image
 docker run -it --rm -p 8000:8000 --name bmiapp tericcabrel/bmi:v1
 ```
 
-<<<<<<< HEAD
->>>>>>> ebd219d (feat: add the readme)
-=======
 Push the image to Docker
 ```shell
 docker login --username=tericcabrel
 docker tag tericcabrel/bmi:v1 tericcabrel/bmi:v1
 docker push tericcabrel/bmi:v1
 ```
->>>>>>> a2977b1 (feat: build the docker image)
+
