@@ -76,4 +76,4 @@ jobs:
           context: .
           file: Dockerfile-app
           push: true
-          tags: tericcabrel/bmi:latest
+          tags: reinegod/bmi:latest
